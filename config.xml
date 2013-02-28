@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.trolleychecker.splitandsave"
         version   = "2.0.0">
-    <name>Split & Save</name>
+    <name>Split and Save</name>
 
     <description>
         Scans barcodes.
