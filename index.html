@@ -83,6 +83,7 @@ $( document ).bind( "mobileinit", function() {
     // Make your jQuery Mobile framework configuration changes here!
 
     $.mobile.allowCrossDomainPages = true;
+    $.support.cors = true;
 });
 $(window).load(function () {
   $("#div1").load("http://trolleychecker.com/test.txt");
