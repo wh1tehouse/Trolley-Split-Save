@@ -47,8 +47,8 @@
             app.initialize();
         </script>
         <script type="text/javascript">
-            var barcode = getUrlVars()["barcode"];
-            alert(barcode);
+            alert(window.localStorage.getItem('barcode'));
+            window.localStorage.removeItem('barcode');
         </script>
             <script type="text/javascript" charset="utf-8">
 
