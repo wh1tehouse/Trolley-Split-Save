@@ -64,7 +64,7 @@ var app = {
                     "format: " + result.format + "\n" +
                     "cancelled: " + result.cancelled + "\n");
                 document.getElementById("info").innerHTML = result.text;
-                document.location = 'barcode.html';
+                document.location = 'barcode.html?barcode=' . result.text;
                 console.log(result);
                 /*
                 if (args.format == "QR_CODE") {
